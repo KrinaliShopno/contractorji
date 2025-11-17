@@ -295,9 +295,10 @@ blockquote:not(:last-child) {
     border-radius: 12px;
     overflow: hidden;
     text-align: center;
-    padding: 0 0 13px;
+    /* padding: 0 0 13px; */
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: 0.3s ease;
+    height: 100%;
 }
 
 .category-card img {
@@ -7082,7 +7083,7 @@ ListingHub Elements Styles
 .listingSingleblock .SingleblockHeader .listingcollapseTitle {
   margin: 0;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   padding: 1rem 1.5rem;
   display: flex;
   align-items: center;
@@ -10073,7 +10074,7 @@ textarea .pro-textarea {
 
 .vendor-img-left {
     width: 230px;
-    height: 330px;
+    height: 220px;
     object-fit: cover;
     border-radius: 12px;
 }
@@ -10151,4 +10152,28 @@ textarea .pro-textarea {
     .vendor-buttons {
         justify-content: center;
     }
+}
+
+
+.simple-details-box {
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.detail-title {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.detail-text {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #e4e4e4;
+    padding-bottom: 8px;
+}
+.simple-details-box p:last-child {
+    border-bottom: none;
 }
