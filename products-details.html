@@ -168,9 +168,7 @@
 
 
 		<!-- ============================ Page Title Start================================== -->
-		<section class=" position-relative"
-			style="background-color: #2061aa;"
-			data-overlay="6">
+		<section class=" position-relative main-section" style="background-color: #2061aa;" data-overlay="6">
 			<div class="container" style="
     z-index: 1;
     position: relative;">
@@ -179,13 +177,13 @@
 				<div class="row justify-content-center align-items-center">
 					<div class="col-xl-7 col-lg-9 col-md-12 col-sm-12">
 						<div class="position-relative text-center">
-							<h1 class="text-light xl-heading">Products Details</h1>
-							<nav id="breadcrumbs" class="breadcrumbs light">
+							<h1 class="text-light fs-2">Products Details</h1>
+							<!-- <nav id="breadcrumbs" class="breadcrumbs light">
 								<ul>
 									<li><a href="index.html">Home</a></li>
 									<li>Products Details</li>
 								</ul>
-							</nav>
+							</nav> -->
 						</div>
 					</div>
 				</div>
@@ -224,27 +222,43 @@
 
 						</div>
 						<!-- Seller Info -->
-						<div class="seller-box shadow-sm rounded-4 p-3 mt-5">
-							<div class="d-flex align-items-center gap-3 justify-content-between">
-								<img src="assets/img/logo.png" width="150">
-								<div>
-									<span class="badge bg-warning text-dark mb-1">Textile, Fabric & Garments</span>
-									<h5 class="fw-bold m-0">Marble fitting</h5>
-									
-								</div>
-							<div class="rating mt-1 text-warning">
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
-    <i class="fa-solid fa-star"></i>
+				<div class="seller-box shadow-sm rounded-4 p-3 mt-5">
 
-    <span class="text-muted ms-1">(0 Reviews)</span>
+    <div class="d-flex align-items-center gap-3">
+
+        <!-- LEFT: Logo -->
+<div class="left-product-logo">
+	        <img src="assets/img/logo.png" width="120" class="img-fluid">
+
 </div>
-							</div>
+        <!-- RIGHT: All content -->
+        <div class="flex-grow-1">
 
-							<a href="#" class="btn btn-primary w-100 mt-3 fw-bold">View Profile</a>
-						</div>
+            <div class="d-flex justify-content-between align-items-start">
+
+                <div>
+                    <span class="badge bg-warning text-dark mb-1">Textile, Fabric & Garments</span>
+                    <h5 class="fw-bold m-0">Marble fitting</h5>
+                </div>
+
+                <div class="rating text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="text-muted ms-1">(0 Reviews)</span>
+                </div>
+
+            </div>
+
+            <a href="#" class="btn btn-primary w-100 mt-3 fw-bold">View Profile</a>
+        </div>
+
+    </div>
+
+</div>
+
 
 						<!-- THUMBNAIL SLIDER -->
 						<!-- <div id="thumbSlider" class="owl-carousel owl-theme">
@@ -272,77 +286,79 @@
 
 					<!-- RIGHT DETAILS -->
 					<div class="col-xl-6 col-lg-6">
-						<h2 class="fw-bold mb-2">Marble fitting</h2>
 
-						<h4 class="text-success fw-bold">
-							Rs. 5000 <span class="text-muted">/ square_feet</span>
-						</h4>
+						<div class="product-details-card p-4 shadow rounded-4">
+							<h2 class="fw-bold mb-2">Marble fitting</h2>
 
-						<div class="d-flex align-items-center mt-2">
-							<span class="badge bg-success px-3 py-2">5.0 ★</span>
-							<span class="ms-2 text-muted">46 Reviews</span>
+							<h4 class="text-success fw-bold">
+								Rs. 5000 <span class="text-muted">/ square_feet</span>
+							</h4>
+
+							<div class="d-flex align-items-center mt-2">
+								<span class="badge bg-success px-3 py-2">5.0 ★</span>
+								<span class="ms-2 text-muted">46 Reviews</span>
+							</div>
+							<!-- <h3 class="text-center fw-bold mb-3">Details</h3> -->
+							<!-- <hr> -->
+
+							<p><strong>Name:</strong> Marble fitting</p>
+							<hr>
+							<p><strong>Description:</strong> Premium marble work...</p>
+							<hr>
+							<p><strong>Unit:</strong> square_feet</p>
+							<hr>
+							<p><strong>Price:</strong> Price starts from ₹50 to ₹5000</p>
+							<hr>
+
+							<div class="d-flex justify-content-between mt-4 gap-3 flex-wrap">
+								<a href="tel:8200200000"
+									class="btn btn-dark px-4 py-2 fw-bold flex-fill text-center">Call Me</a>
+								<a href="https://wa.me/91820020000"
+									class="btn btn-primary px-4 py-2 fw-bold flex-fill text-center">WhatsApp</a>
+							</div>
+
+
+
+							<h5 class="text-center mt-4 mb-2 fw-bold">Share this Product</h5>
+
+							<div class="d-flex justify-content-center gap-3 fs-4">
+
+								<!-- Copy Link -->
+								<a href="https://contractorji.com/productinfo/2" target="_blank">
+									<i class="bi bi-link-45deg text-primary"></i>
+								</a>
+
+								<!-- WhatsApp Share (Message + Link) -->
+								<a href="https://Wa.me/918200205395" target="_blank">
+									<i class="bi bi-whatsapp text-success"></i>
+								</a>
+
+								<!-- Facebook Share -->
+								<a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_PRODUCT_URL" target="_blank">
+									<i class="bi bi-facebook text-primary"></i>
+								</a>
+
+								<!-- Email Share -->
+								<a href="mailto:?subject=Check this product&body=View here: YOUR_PRODUCT_URL">
+									<i class="bi bi-envelope-fill text-danger"></i>
+								</a>
+
+								<!-- Instagram (cannot auto-share link) → Only redirect to IG profile -->
+								<a href="https://www.instagram.com/" target="_blank">
+									<i class="bi bi-instagram text-danger"></i>
+								</a>
+
+								<!-- Twitter Share (X) -->
+								<a href="https://twitter.com/intent/tweet?text=Check%20this%20product&url=YOUR_PRODUCT_URL"
+									target="_blank">
+									<i class="bi bi-twitter text-info"></i>
+								</a>
+
+							</div>
+
+
 						</div>
-	<div class="product-details-card p-4 shadow rounded-4">
 
-					<!-- <h3 class="text-center fw-bold mb-3">Details</h3> -->
-					<!-- <hr> -->
-
-					<p><strong>Name:</strong> Marble fitting</p>
-					<hr>
-					<p><strong>Description:</strong> Premium marble work...</p>
-					<hr>
-					<p><strong>Unit:</strong> square_feet</p>
-					<hr>
-					<p><strong>Price:</strong> Price starts from ₹50 to ₹5000</p>
-					<hr>
-
-					<div class="d-flex flex-wrap justify-content-start gap-3 mt-4">
-						<a href="tel:8200200000" class="btn btn-dark px-4 py-2 fw-bold">Call Me</a>
-						<a href="https://wa.me/91820020000"
-							class="header-add-btn d-flex align-items-center">WhatsApp</a>
-						<!-- <a href="#" class="btn btn-primary px-4 py-2 fw-bold">View Profile</a> -->
-					</div>
-
-					<h5 class="text-center mt-4 mb-2 fw-bold">Share this Product</h5>
-
-					<div class="d-flex justify-content-center gap-3 fs-4">
-
-						<!-- Copy Link -->
-						<a href="https://contractorji.com/productinfo/2" target="_blank">
-							<i class="bi bi-link-45deg text-primary"></i>
-						</a>
-
-						<!-- WhatsApp Share (Message + Link) -->
-						<a href="https://Wa.me/918200205395" target="_blank">
-							<i class="bi bi-whatsapp text-success"></i>
-						</a>
-
-						<!-- Facebook Share -->
-						<a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_PRODUCT_URL" target="_blank">
-							<i class="bi bi-facebook text-primary"></i>
-						</a>
-
-						<!-- Email Share -->
-						<a href="mailto:?subject=Check this product&body=View here: YOUR_PRODUCT_URL">
-							<i class="bi bi-envelope-fill text-danger"></i>
-						</a>
-
-						<!-- Instagram (cannot auto-share link) → Only redirect to IG profile -->
-						<a href="https://www.instagram.com/" target="_blank">
-							<i class="bi bi-instagram text-danger"></i>
-						</a>
-
-						<!-- Twitter Share (X) -->
-						<a href="https://twitter.com/intent/tweet?text=Check%20this%20product&url=YOUR_PRODUCT_URL"
-							target="_blank">
-							<i class="bi bi-twitter text-info"></i>
-						</a>
-
-					</div>
-
-
-				</div>
-				
 
 
 					</div>
@@ -441,7 +457,7 @@
 					</h2>
 				</div>
 
-						<div class="row g-4">
+				<div class="row g-4">
 
 					<!-- SINGLE CARD -->
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -474,9 +490,9 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Marble fiting
-									<span class="text-primary">
+									<!-- <span class="text-primary">
 										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									</span> -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -501,7 +517,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
@@ -549,9 +565,7 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Inlay work desgin in marble
-									<span class="text-primary">
-										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									<!-- <s////// -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -576,7 +590,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
@@ -624,9 +638,9 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Inlay work desgin in marble
-									<span class="text-primary">
+									<!-- <span class="text-primary">
 										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									</span> -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -651,7 +665,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
@@ -676,7 +690,7 @@
 			</div>
 		</section>
 
-				<section class="py-5 ">
+		<section class="py-5 ">
 			<div class="container">
 
 				<div class="text-center mb-5">
@@ -685,7 +699,7 @@
 					</h2>
 				</div>
 
-						<div class="row g-4">
+				<div class="row g-4">
 
 					<!-- SINGLE CARD -->
 					<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -718,9 +732,9 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Marble fiting
-									<span class="text-primary">
+									<!-- <span class="text-primary">
 										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									</span> -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -745,7 +759,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
@@ -793,9 +807,9 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Inlay work desgin in marble
-									<span class="text-primary">
+									<!-- <span class="text-primary">
 										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									</span> -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -820,7 +834,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
@@ -868,9 +882,9 @@
 
 								<h4 class="fw-bold mb-1 d-flex align-items-center gap-2">
 									Inlay work desgin in marble
-									<span class="text-primary">
+									<!-- <span class="text-primary">
 										<i class="bi bi-patch-check-fill"></i>
-									</span>
+									</span> -->
 								</h4>
 
 								<!-- <p class="text-muted small">Cicero famously orated against his political.</p> -->
@@ -895,7 +909,7 @@
 
 								<!-- Rating -->
 								<div class="d-flex align-items-center mb-3">
-									<span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span>
+									<!-- <span class="badge bg-success rounded-pill me-2 px-3 py-2">4.5 ★</span> -->
 									<!-- <span class="text-muted small">46 Reviews</span> -->
 								</div>
 
