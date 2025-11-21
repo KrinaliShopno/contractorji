@@ -739,49 +739,51 @@
 
 							<!-- Form -->
 							<div class="row align-items-center justify-content-center g-3 mb-4">
-									<div class="col-xl-6 col-lg-6 col-md-6"><a href="#" class="btn btn-outline-secondary border rounded-3 text-md px-lg-2 full-width">	<i class="fa-brands fa-google-plus-g color--googleplus me-2"></i>Login with Google</a></div>
-								</div>
-							<!-- End Form -->
 
-							<!-- Form -->
-							<div class="mb-4">
-								<label class="form-label" for="email01">Your email</label>
-								<input type="email" class="form-control" id="email01" placeholder="email@site.com"
-									required>
-								<span class="invalid-feedback">Please enter a valid email address.</span>
 							</div>
 							<!-- End Form -->
 
 							<!-- Form -->
+							<div class="mb-4">
+								<label class="form-label" for="mobile01">Mobile Number</label>
+								<input type="tel" class="form-control" id="mobile01" placeholder="Enter mobile number"
+									maxlength="10" required>
+								<span class="invalid-feedback">Please enter a valid mobile number.</span>
+							</div>
+							<!-- End Form -->
+
+							<!-- OTP Section -->
 							<div class="mb-4">
 								<div class="d-flex justify-content-between align-items-center">
-									<label class="form-label" for="pass01">Password</label>
-									<a class="link fw-medium text-primary" href="forgot-password.html">Forgot
-										Password?</a>
+									<label class="form-label">Enter OTP</label>
+									<a class="link fw-medium text-primary" href="#">Resend OTP?</a>
 								</div>
 
-								<div class="input-group-merge">
-									<input type="password" class="form-control" id="pass01"
-										placeholder="8+ characters required" required>
+								<div class="otp-wrapper d-flex justify-content-between gap-3" style="
+    width: 100%;">
+									<input type="text" class="otp-input form-control" maxlength="1">
+									<input type="text" class="otp-input form-control" maxlength="1">
+									<input type="text" class="otp-input form-control" maxlength="1">
+									<input type="text" class="otp-input form-control" maxlength="1">
+									<input type="text" class="otp-input form-control" maxlength="1">
+									<input type="text" class="otp-input form-control" maxlength="1">
 								</div>
-
-								<span class="invalid-feedback">Please enter a valid password.</span>
 							</div>
-							<!-- End Form -->
+
 
 							<div class="d-grid mb-3">
-								<button type="submit" class="btn btn-primary fw-medium">Log in</button>
+								<button type="submit" class="btn btn-primary fw-medium">Verify OTP</button>
 							</div>
 
-							<div class="text-center">
+							<!-- <div class="text-center">
 								<p>Don't have an account yet? <a class="link fw-medium text-primary"
 										href="signup.html">Sign up here</a></p>
-							</div>
+							</div> -->
 						</form>
 						<!-- End Form -->
 					</div>
 
-		
+
 				</div>
 			</div>
 		</div>

@@ -3146,11 +3146,12 @@ div[data-overlay] p {
 }
 
 .square--100 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15%;
 }
 
 .hide {
@@ -9974,6 +9975,7 @@ textarea .pro-textarea {
 
         .seller-box {
             background: #f8f9fa;
+            padding: 22px 20px;
         }
 
         .product-details-card hr {
@@ -10185,6 +10187,7 @@ textarea .pro-textarea {
 
 .detail-row {
     display: flex;
+    width: 50%;
     align-items: flex-start;
     gap: 12px;
     margin-bottom: 15px;
@@ -10199,12 +10202,12 @@ textarea .pro-textarea {
     display: flex;
     border-radius: 6px;
 }
-.detail-row:last-child {
+/* .detail-row:last-child {
     border-bottom: none;
-}
+} */
 
 .detail-icon {
-    font-size: 20px;
+    font-size: 18px;
     color: #2061aa;
     margin-top: 4px;
 }
@@ -10215,9 +10218,13 @@ textarea .pro-textarea {
     margin: 0;
     color: #333;
 }
-
+.req-details{
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+}
 .detail-text {
-    font-size: 14px;
+    font-size: 17px;
     color: #555;
     margin: 0;
 }
