@@ -7100,8 +7100,8 @@ ListingHub Elements Styles
   float: right;
   margin-right: 0px;
   transition: 0.2s ease-out;
-  color: var(--bs-primary);
-  background: var(--bs-primary-bg-subtle);
+color: #2061aa;
+    background: #2061aa26;
   width: 28px;
   height: 28px;
   font-weight: 600;
